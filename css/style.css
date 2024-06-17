@@ -37,6 +37,8 @@ img{
 }
 
 #images{
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     gap: 20px;
