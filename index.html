@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/app.js" defer></script>
     <title>Rock paper scissors</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Rock Paper Scissors game</h1>
+    </header>
+
+    <main>
+        <div id="images">
+            <img src="./assets/images/rock-picture.jpeg" alt="rock">
+
+        </div>
+        <div id="play-buttons">
+            <button class="button" id="rock-button">Rock</button>
+            <button class="button" id="paper-button">Paper</button>
+            <button class="button" id="scissors-button">scissors</button>
+        </div id="scoreboard">
+            <h2 id="score-h2">Score</h2>
+            <div id="scoreboard-inner">
+                    <div class="score-div">
+                        <h3>Player score:&nbsp;</h3><h3 id="player-score"></h3>
+                    </div>
+                    <div class="score-div">
+                        <h3>Computer score:&nbsp;</h3><h3 id="computer-score"></h3>
+                    </div>
+                    <div class="score-div">
+                        <h3>Games played:&nbsp;</h3><h3 id="games-played"></h3>
+                    </div>
+            </div>
+        <div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Made by Michał Kulikowski</h3>
+            <h3>Designed by Freepik</h3>
+        </div>
+        <div></div>
+            <h3><a href="https://pl.freepik.com/darmowe-zdjecie/abstrakcyjny-wzor-kamienny-w-naturze-czarne-tlo-stale-i-szorstkie-generowane-przez-sztuczna-inteligencje_132769840.htm#fromView=search&page=1&position=0&uuid=192ebfbf-1a0c-48fe-8c5d-229f4386b619">Obraz autorstwa vecstock na Freepik</a></h3>
+            <h3><a href="https://pl.freepik.com/darmowe-zdjecie/widok-bialego-zmiety-papier_1038689.htm#fromView=search&page=1&position=0&uuid=cf270b8e-8f5c-4b17-a59c-0d2389568cc0">Obraz autorstwa kues1 na Freepik</a></h3>
+            <h3><a href="https://pl.freepik.com/darmowe-zdjecie/minimalistyczne-logo-generatywnej-sztucznej-inteligencji-salonu-fryzjerskiego-salonu-pieknosci_40986042.htm#fromView=search&page=1&position=10&uuid=ee6804f1-f523-4558-b1fa-a50e592ecb0d">Obraz autorstwa pvproductions na Freepik</a></h3>
+        </div>
+    </footer>
 </body>
 </html>
